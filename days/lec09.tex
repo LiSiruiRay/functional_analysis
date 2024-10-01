@@ -155,7 +155,7 @@ and $f+g$ and $f-g$ are measurable because $f, g$ are measurable, and we can sca
 (Notice that the functions above only go from $E \to \RR$, and that's because we wanted to avoid $\infty - \infty$ showing up in some of the functions.) All of those properties we showed above also work for Riemann integration, so this isn't really anything special yet -- what makes Lebesgue integration stand out is that we have \textbf{closure under taking limits}.
 
 \begin{theorem}\label{measlim}
-Let $E \subset \RR$ be measurable, and let $f_n: E \to [-\infty, \infty]$ be a sequence of measurable functions. Then the functions $g_1(x) = \sup_n f_n(x), g_2(x) = \inf_n f_n(x), g_3(x) = \limsup_{n \to \infty} f_n(x) = \inf_{n} \left[\sup_{k \ge n} f_k(x)\right]$, and $g_4(x) = \liminf_{n \to \infty} f_n(x) = \sup_n \left[\inf_{k \ge n} f_k(x) \right]$ are all measurable functions.
+Let $E \subset \RR$ be measurable, and let $f_n: E \to [-\infty, \infty]$ be a sequence of measurable functions. Then the functions $g_1(x) = \sup_n f_n(x), \\ g_2(x) = \inf_n f_n(x), \\ g_3(x) = \limsup_{n \to \infty} f_n(x) = \inf_{n} \left[\sup_{k \ge n} f_k(x)\right]$, and \\ $g_4(x) = \liminf_{n \to \infty} f_n(x) = \sup_n \left[\inf_{k \ge n} f_k(x) \right]$ are all measurable functions.
 \end{theorem}
 \begin{proof}
 To check that the pointwise supremum is measurable, notice that
