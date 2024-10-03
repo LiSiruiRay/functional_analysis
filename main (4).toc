@@ -1,0 +1,23 @@
+\contentsline {section}{\numberline {1}February 18, 2021}{8}{section.1}%
+\contentsline {section}{\numberline {2}February 23, 2021}{15}{section.2}%
+\contentsline {section}{\numberline {3}February 25, 2021}{19}{section.3}%
+\contentsline {section}{\numberline {4}March 2, 2021}{23}{section.4}%
+\contentsline {section}{\numberline {5}March 4, 2021}{27}{section.5}%
+\contentsline {section}{\numberline {6}March 11, 2021}{32}{section.6}%
+\contentsline {section}{\numberline {7}March 16, 2021}{37}{section.7}%
+\contentsline {section}{\numberline {8}March 18, 2021}{42}{section.8}%
+\contentsline {section}{\numberline {9}March 23, 2021}{48}{section.9}%
+\contentsline {section}{\numberline {10}The Lebesgue Integral of a Nonnegative Function and Convergence Theorems}{54}{section.10}%
+\contentsline {section}{\numberline {11}April 1, 2021}{60}{section.11}%
+\contentsline {section}{\numberline {12}April 6, 2021}{66}{section.12}%
+\contentsline {section}{\numberline {13}April 8, 2021}{72}{section.13}%
+\contentsline {section}{\numberline {14}April 13, 2021}{78}{section.14}%
+\contentsline {section}{\numberline {15}April 15, 2021}{84}{section.15}%
+\contentsline {section}{\numberline {16}April 22, 2021}{90}{section.16}%
+\contentsline {section}{\numberline {17}April 27, 2021}{95}{section.17}%
+\contentsline {section}{\numberline {18}April 29, 2021}{101}{section.18}%
+\contentsline {section}{\numberline {19}May 4, 2021}{106}{section.19}%
+\contentsline {section}{\numberline {20}May 6, 2021}{111}{section.20}%
+\contentsline {section}{\numberline {21}May 11, 2021}{115}{section.21}%
+\contentsline {section}{\numberline {22}May 13, 2021}{120}{section.22}%
+\contentsline {section}{\numberline {23}Summary of Notes}{126}{section.23}%

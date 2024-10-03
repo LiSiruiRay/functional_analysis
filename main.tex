@@ -6,8 +6,34 @@
 \usepackage[colorlinks=true, linkcolor=blue]{hyperref}
 \usepackage{lindrew}
 \usepackage{adjustbox}
-% \usepackage{hyperref}
-% \usepackage{cleveref}
+% \usepackage{etoolbox}
+% \usepackage{ifthen}
+\newcounter{raynoteCounter}  % Counter to track notes
+\newcounter{totalRayNotes}   % Counter to store the total number of notes
+
+\newcommand{\raynote}[1]{%
+    \refstepcounter{raynoteCounter}%
+    \label{raynote\arabic{raynoteCounter}}% Add a unique label for the note
+    \expandafter\gdef\csname raynote\arabic{raynoteCounter}\endcsname{%
+        \textbf{[Ray's Note \arabic{raynoteCounter} (Page~\pageref{raynote\arabic{raynoteCounter}}): #1]}%
+    }%
+    \textbf{[Ray's Note \arabic{raynoteCounter}: #1]}%
+    \setcounter{totalRayNotes}{\value{raynoteCounter}}%
+}
+
+
+\newcommand{\printraynotes}{%
+    \setcounter{raynoteCounter}{1}%
+    \loop%
+        \csname raynote\arabic{raynoteCounter}\endcsname\par%
+        \stepcounter{raynoteCounter}%
+    \ifnum\value{raynoteCounter}<\numexpr\value{totalRayNotes}+1\relax%
+    \repeat%
+}
+
+
+
+
 
 \title{18.102: Introduction to Functional Analysis}
 \author{\textbf{Lecturer: Dr. Casey Rodriguez} \\ Notes by: Andrew Lin \\ Notes Fixed \& Costomized by: Ray Li (Oct 2024)}
@@ -71,5 +97,9 @@
 \input{days/lec22.tex}
 
 \input{days/lec23.tex}
+
+\newpage
+\section{Summary of Ray's Notes}
+\printraynotes
 
 \end{document}

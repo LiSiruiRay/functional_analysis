@@ -76,7 +76,8 @@ Furthermore, because $f_1 \le f_2 \le \cdots$, we know that $E_1 \subset E_2 \su
 \[
     \lim_{n \to \infty} \int_E f_n \ge \lim_{n \to \infty} (1 - \eps) \sum_{j=1}^m a_j m(A_j \cap E_n) = (1 - \eps) \sum_{j=1}^m a_j m(A_j) = (1 - \eps) \int_E \phi.
 \]
-Taking $\eps \to 0$ yields the desired inequality $\int_E \phi \le \lim_{n \to \infty} \int_E f_n$, and combining the two inequalities finishes the proof.
+Taking $\eps \to 0$ yields the desired inequality $\int_E \phi \le \lim_{n \to \infty } \int_E f_n$, and combining the two inequalities finishes the proof.
+\raynote{Thsi is because $\lim_{n \to \infty} \int_E f_n$ is a upper bound for $\int_E \phi$ and by the definition of Lebesgue integral, $\int_E f$ is taken over the sup of such $\phi$. Upper bound is greater or equal to the least upper bound.}
 \end{proof}
 
 With this result, we now have tools for evaluating Lebesgue integrals that aren't just using the definition directly:
@@ -136,7 +137,11 @@ as desired.
 Let $f \in L^+(E)$. Then $\int_E f = 0$ if and only if $f = 0$ almost everywhere on $E$.
 \end{theorem}
 \begin{proof}
-First of all, if $f = 0$ almost everywhere, then $f \le 0$ almost everywhere, meaning $\int_E f \le \int_E 0 = 0$, so the integral is indeed zero. For the other direction, define 
+First of all, if $f = 0$ almost everywhere, then $f \le 0$ almost everywhere, meaning $\int_E f \le \int_E 0 = 0$, so the integral is indeed zero. 
+
+\raynote{This is not trivial. We need to show that for $f \in L^+(E)$, $g \in L^+(E)$, if $f \le g a.e$, then $\int_E f \le \int_E g$, this could be argued in from the denition of Lebesgue integral that the sup of $g$ is an upper bounf of $f$.}
+
+For the other direction, define 
 \[
     F_n = \left\{x \in E: f(x) > \frac{1}{n}\right\}, \quad F = \{x \in E: f(x) > 0\}.
 \]
@@ -161,6 +166,9 @@ Let $F$ be the set of $x \in E$ where the two assumptions above hold. By assumpt
 \[
     \int_E f = \int_E f \chi_F = \int_F f = \lim_{n \to \infty} \int_F f_n,
 \]
+
+\raynote{First equal sign holds by that $f, g \in L^+(E) \ \& \ f = g  \ a.e$, then $f \le g \ a.e \ \& \ g \le f \ a.e.$, thus $\int f \le g \ \& \ \int g \le \int f$, thus $\int f = \int g$}
+
 where the first equality holds because the two functions $f, f\chi_F$ are equal almost everywhere, and the third equality holds because $\{f_n\}$ satisfy the assumptions of the Monotone Convergence Theorem on $F$. We can then simplify this to 
 \[
     = \lim_{n \to \infty} \int_F f_n = \lim_{n \to \infty} \int_E f_n,
