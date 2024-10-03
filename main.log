@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.27)  2 OCT 2024 22:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.27)  3 OCT 2024 06:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1895,22 +1895,19 @@ Package mdframed Info: mdframed detected package amsthm
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 44DFD1FDE365D50D24675E80FE8063E8;2925.
  ) 
 Here is how much of TeX's memory you used:
- 40183 strings out of 476025
- 920297 string characters out of 5790016
+ 40182 strings out of 476025
+ 920278 string characters out of 5790016
  1874388 words of memory out of 5000000
- 59246 multiletter control sequences out of 15000+600000
+ 59245 multiletter control sequences out of 15000+600000
  531070 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,14n,99p,1106b,1078s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/hfbright/hfbrbs10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/hfbright/hfbrbs8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/hfbright/hfbrbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/hfbright/hfbrmb10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/hfbright/hfbrsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbmo10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbmr8.pfb>
-Output written on main.pdf (126 pages, 732338 bytes).
+Output written on main.pdf (126 pages, 732335 bytes).
 PDF statistics:
  1429 PDF objects out of 1440 (max. 8388607)
  1256 compressed objects within 13 object streams
