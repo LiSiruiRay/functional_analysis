@@ -1,4 +1,6 @@
-\pagebreak\section{March 18, 2021}
+\pagebreak\section{Lebesgue Measurable Functions}
+
+\textit{(Original Section: March 30, 2021)}
 
 We concluded our discussion of measurable sets last lecture -- remember that the motivation is to build towards a method of integration that surpasses that of the Riemann integral, so that the set of integrable functions actually forms a Banach space. To do that, we wanted to first integrate the simplest kinds of functions, which are $1$ on some set and $0$ on others, and that's why we cared about defining measure on certain subsets of $\RR$ (namely the sigma-algebra of Lebesgue measurable sets). We won't go through the construction of a non-measurable set -- instead, we'll move ahead to Lebesgue integration now. 
 
@@ -220,5 +222,14 @@ also has measure zero (because $m^\ast(N_\alpha) \le m^\ast(N) = 0$). Therefore,
 \]
 (because the preimages are the same outside of $N$, and then we also have to account for the set where $g(x) > \alpha$ and doesn't agree with $f$). But $N$ is measurable, so $N^c$ is measurable, and thus the intersection $f^{-1}((\alpha, \infty]) \cap N^c$ is measurable. Finally, $N_\alpha$ is also measurable (it has measure zero), so the final expression on the right is indeed measurable, proving that $g$ is measurable as desired.
 \end{proof}
+
+\raynote{
+    \begin{proof}
+        The way I proved it is essentially proving the following lemma:
+        \begin{lemma}
+            If $E \in \mc{M}$, and $\forall \epsilon, m_*(E \Delta F) < \epsilon $, then $F \in \mc{M}$.
+        \end{lemma}
+    \end{proof}
+}
 
 We'll extend this idea of measurability to (finite) complex numbers next time, and then we'll show that a particular class of functions are the universal measurable functions. That will allow us to define the Lebesgue integral for certain nonnegative functions, and from there, we'll be able to move towards proving that the set of Lebesgue integrable functions forms a Banach space.

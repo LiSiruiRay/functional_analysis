@@ -5,7 +5,7 @@
 \contentsline {section}{\numberline {5}March 4, 2021}{28}{section.5}%
 \contentsline {section}{\numberline {6}March 11, 2021}{33}{section.6}%
 \contentsline {section}{\numberline {7}March 16, 2021}{38}{section.7}%
-\contentsline {section}{\numberline {8}March 18, 2021}{43}{section.8}%
+\contentsline {section}{\numberline {8}Lebesgue Measurable Functions}{43}{section.8}%
 \contentsline {section}{\numberline {9}March 23, 2021}{49}{section.9}%
 \contentsline {section}{\numberline {10}The Lebesgue Integral of a Nonnegative Function and Convergence Theorems}{55}{section.10}%
 \contentsline {section}{\numberline {11}April 1, 2021}{61}{section.11}%

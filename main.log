@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.27)  3 OCT 2024 10:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.27)  7 OCT 2024 21:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1358,51 +1358,54 @@ Package mdframed Info: mdframed detected package amsthm
 ) (./days/lec09.tex [42]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 5.
+(mdframed)              on input line 7.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 20.
+(mdframed)              on input line 22.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 28.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 33.
+(mdframed)              on input line 30.
  [43]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 64.
+(mdframed)              on input line 35.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 77.
+(mdframed)              on input line 66.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 79.
  [44]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 89.
+(mdframed)              on input line 91.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 100.
+(mdframed)              on input line 102.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 114.
+(mdframed)              on input line 116.
  [45]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 157.
+(mdframed)              on input line 159.
  [46]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 179.
+(mdframed)              on input line 181.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 188.
+(mdframed)              on input line 190.
  [47]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 198.
+(mdframed)              on input line 200.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 207.
+(mdframed)              on input line 209.
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 233.
 ) (./days/lec10.tex [48]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
@@ -1661,7 +1664,7 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 22.
-<pictures/fejer.PNG, id=893, 694.9965pt x 351.11176pt>
+<pictures/fejer.PNG, id=896, 694.9965pt x 351.11176pt>
 File: pictures/fejer.PNG Graphic file (type png)
 <use pictures/fejer.PNG>
 Package pdftex.def Info: pictures/fejer.PNG  used on input line 31.
@@ -1895,26 +1898,30 @@ Package mdframed Info: mdframed detected package amsthm
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
 (mdframed)              on input line 197.
- [125]) [126] [127] (./main.aux)
+ [125]) [126]
+Package mdframed Info: mdframed detected package amsthm 
+ changed the theorem header of amsthm
+(mdframed)              on input line 103.
+ [127] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0FF13CD1067B9FA7AF4DDF4338620150;3089.
+(rerunfilecheck)             Checksum: FA7298666488FCE54DCA8DE1B208EA2A;3164.
  ) 
 Here is how much of TeX's memory you used:
- 40210 strings out of 476025
- 920652 string characters out of 5790016
+ 40222 strings out of 476025
+ 920855 string characters out of 5790016
  1874388 words of memory out of 5000000
- 59268 multiletter control sequences out of 15000+600000
+ 59275 multiletter control sequences out of 15000+600000
  531070 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,14n,99p,1106b,1078s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,14n,99p,1106b,1202s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/hfbright/hfbrbs10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/hfbright/hfbrbs8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/hfbright/hfbrbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/hfbright/hfbrmb10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/hfbright/hfbrsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbmo10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbmr8.pfb>
-Output written on main.pdf (127 pages, 735583 bytes).
+Output written on main.pdf (127 pages, 737132 bytes).
 PDF statistics:
- 1446 PDF objects out of 1728 (max. 8388607)
- 1272 compressed objects within 13 object streams
- 671 named destinations out of 1000 (max. 500000)
+ 1453 PDF objects out of 1728 (max. 8388607)
+ 1279 compressed objects within 13 object streams
+ 676 named destinations out of 1000 (max. 500000)
  202 words of extra memory for PDF output out of 10000 (max. 10000000)
 
