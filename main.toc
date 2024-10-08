@@ -6,18 +6,18 @@
 \contentsline {section}{\numberline {6}March 11, 2021}{33}{section.6}%
 \contentsline {section}{\numberline {7}March 16, 2021}{38}{section.7}%
 \contentsline {section}{\numberline {8}Lebesgue Measurable Functions}{43}{section.8}%
-\contentsline {section}{\numberline {9}March 23, 2021}{49}{section.9}%
-\contentsline {section}{\numberline {10}The Lebesgue Integral of a Nonnegative Function and Convergence Theorems}{55}{section.10}%
-\contentsline {section}{\numberline {11}April 1, 2021}{61}{section.11}%
-\contentsline {section}{\numberline {12}April 6, 2021}{67}{section.12}%
-\contentsline {section}{\numberline {13}April 8, 2021}{73}{section.13}%
-\contentsline {section}{\numberline {14}April 13, 2021}{79}{section.14}%
-\contentsline {section}{\numberline {15}April 15, 2021}{85}{section.15}%
-\contentsline {section}{\numberline {16}April 22, 2021}{91}{section.16}%
-\contentsline {section}{\numberline {17}April 27, 2021}{96}{section.17}%
-\contentsline {section}{\numberline {18}April 29, 2021}{102}{section.18}%
-\contentsline {section}{\numberline {19}May 4, 2021}{107}{section.19}%
-\contentsline {section}{\numberline {20}May 6, 2021}{112}{section.20}%
-\contentsline {section}{\numberline {21}May 11, 2021}{116}{section.21}%
-\contentsline {section}{\numberline {22}May 13, 2021}{121}{section.22}%
-\contentsline {section}{\numberline {23}Summary of Ray's Notes}{127}{section.23}%
+\contentsline {section}{\numberline {9}Simple Functions}{50}{section.9}%
+\contentsline {section}{\numberline {10}The Lebesgue Integral of a Nonnegative Function and Convergence Theorems}{56}{section.10}%
+\contentsline {section}{\numberline {11}April 1, 2021}{62}{section.11}%
+\contentsline {section}{\numberline {12}April 6, 2021}{68}{section.12}%
+\contentsline {section}{\numberline {13}April 8, 2021}{74}{section.13}%
+\contentsline {section}{\numberline {14}April 13, 2021}{80}{section.14}%
+\contentsline {section}{\numberline {15}April 15, 2021}{86}{section.15}%
+\contentsline {section}{\numberline {16}April 22, 2021}{92}{section.16}%
+\contentsline {section}{\numberline {17}April 27, 2021}{97}{section.17}%
+\contentsline {section}{\numberline {18}April 29, 2021}{103}{section.18}%
+\contentsline {section}{\numberline {19}May 4, 2021}{108}{section.19}%
+\contentsline {section}{\numberline {20}May 6, 2021}{113}{section.20}%
+\contentsline {section}{\numberline {21}May 11, 2021}{117}{section.21}%
+\contentsline {section}{\numberline {22}May 13, 2021}{122}{section.22}%
+\contentsline {section}{\numberline {23}Summary of Ray's Notes}{128}{section.23}%

@@ -1,5 +1,5 @@
-\pagebreak\section{March 23, 2021}
-
+\pagebreak\section{Simple Functions}
+\textit{(Original Section: March 23, 2021)}
 Last time, we introduced the idea of a \textbf{measurable function}: recall that a function $f: E \to [-\infty, \infty]$ (where $E \subset \RR$ is measurable) is measurable if $f^{-1}((\alpha, \infty])$ is measurable for all $\alpha \in \RR$. (And because we can generate open sets with these half-open intervals, that shows that the preimage of any Borel set will be measurable as well.) We also showed that measurable functions are closed under linear combinations, infs, sups, and limits, and that changing a function on a set of measure zero preserves measurability.
 
 Everything we've done so far is for extended real-valued functions, but often we'll be dealing with complex-valued functions instead, and we'll extend our definition accordingly. Recall that we can write any complex-valued function $f$ as $\text{Re}(f) + i \cdot \text{Im}(f)$:
@@ -110,6 +110,31 @@ we can just check the claim on each individual $E_n^k$. And indeed, if $x \in E_
 \]
 as desired, completing the proof. 
 \end{proof}
+
+\raynote{
+    In Stein's "Real Analysis Measure Theory, Integration and Hilbert Spaces", there is a more concise way to showing this. In Page 31, Theorem 4.1.
+}
+
+
+\raynote{
+    In Stein's "Real Analysis Measure Theory, Integration and Hilbert Spaces", there is also a thorem showing that every simple function can be approximated by a step function (Page 32, Theorem 4.3). I will attach the theorem here.
+}
+\begin{quote}
+    \textbf{Theorem 4.3} Suppose \( f \) is measurable on \( \mathbb{R}^d \). Then there exists a sequence of step functions \( \{\psi_k\}_{k=1}^{\infty} \) that converges pointwise to \( f(x) \) for almost every \( x \). \\
+    \textbf{Proof.} By the previous result, it suffices to show that if \( E \) is a measurable set with finite measure, then \( f = \chi_E \) can be approximated by step functions. To this end, we recall part (iv) of Theorem 3.4, which states that for every \( \epsilon \) there exist cubes \( Q_1, \dots, Q_N \) such that \( m(E \Delta \bigcup_{j=1}^{N} Q_j) \leq \epsilon \). By considering the grid formed by extending the sides of these cubes, we see that there exist almost disjoint rectangles \( \tilde{R}_1, \dots, \tilde{R}_M \) such that \( \bigcup_{j=1}^{N} Q_j = \bigcup_{j=1}^{M} \tilde{R}_j \). By taking rectangles \( R_j \) contained in \( \tilde{R}_j \), and slightly smaller in size, we find a collection of disjoint rectangles that satisfy \( m(E \Delta \bigcup_{j=1}^{M} R_j) \leq 2\epsilon \). Therefore
+    \[
+    f(x) = \sum_{j=1}^{M} \chi_{R_j}(x),
+    \]
+    except possibly on a set of measure \( \leq 2\epsilon \). Consequently, for every \( k \geq 1 \), there exists a step function \( \psi_k(x) \) such that if 
+    \[
+    E_k = \{x : f(x) \neq \psi_k(x)\},
+    \]
+    then \( m(E_k) \leq 2^{-k} \). If we let \( F_K = \bigcup_{j=K+1}^{\infty} E_j \) and \( F = \bigcap_{K=1}^{\infty} F_K \), then \( m(F) = 0 \) since \( m(F_K) \leq 2^{-K} \), and \( \psi_k(x) \to f(x) \) for all \( x \) in the complement of \( F \), which is the desired result.
+\end{quote}
+
+Here is ChatGPT's explanation, was helpful for me: \href{https://chatgpt.com/share/6705442a-1f4c-8013-b47e-b9dfe4231cc4}{link}
+
+
 
 Now, as promised, we'll extend this proof to the extended real numbers and the complex numbers:
 
