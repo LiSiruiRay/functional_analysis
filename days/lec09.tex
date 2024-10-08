@@ -224,12 +224,17 @@ also has measure zero (because $m^\ast(N_\alpha) \le m^\ast(N) = 0$). Therefore,
 \end{proof}
 
 \raynote{
-    \begin{proof}
-        The way I proved it is essentially proving the following lemma:
-        \begin{lemma}
-            If $E \in \mc{M}$, and $\forall \epsilon, m_*(E \Delta F) < \epsilon $, then $F \in \mc{M}$.
-        \end{lemma}
-    \end{proof}
+The way I proved it is essentially proving the following lemma:
+\begin{lemma}
+    If $E \in \mc{M}$, and $\forall \epsilon, m_*(E \Delta F) < \epsilon $, then $F \in \mc{M}$.
+\end{lemma}
+\begin{proof}
+    $E \in \mc{M}, m_*(E \Delta F) = 0$, then $E \Delta F \in mc{M}$, they are disjoint, masureable, \\ 
+    thus $\exists O, O'$, open, $s.t. m_*(O - E) < \frac{\epsilon}{2}, m_*(O' - E \Delta F) < \frac{\epsilon}{2}$, \\
+    thus $O \cup O' - F = O \cup O' - E - E \Delta F = (O - E \Delta F - E) \cup (O' - E \Delta F - E)$, \\
+    where $(O - E \Delta F - E) \subset O - E \Delta F$ and $(O' - E \Delta F - E) \subset O' - E \Delta F $. \\
+    Thus, $m_*(O' - F) \le m_*(O - E \Delta F) + m_*(O' - E \Delta F) < \epsilon$
+\end{proof}
 }
 
 We'll extend this idea of measurability to (finite) complex numbers next time, and then we'll show that a particular class of functions are the universal measurable functions. That will allow us to define the Lebesgue integral for certain nonnegative functions, and from there, we'll be able to move towards proving that the set of Lebesgue integrable functions forms a Banach space.
