@@ -20,4 +20,7 @@
 \contentsline {section}{\numberline {20}May 6, 2021}{113}{section.20}%
 \contentsline {section}{\numberline {21}May 11, 2021}{117}{section.21}%
 \contentsline {section}{\numberline {22}May 13, 2021}{122}{section.22}%
-\contentsline {section}{\numberline {23}Summary of Ray's Notes}{128}{section.23}%
+\contentsline {section}{\numberline {A}Appendix}{127}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Littlewood's three principles}{127}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Stein's approache to general Lebesgue Measurable Functions}{127}{subsection.A.2}%
+\contentsline {section}{\numberline {B}Summary of Ray's Notes}{128}{appendix.B}%
